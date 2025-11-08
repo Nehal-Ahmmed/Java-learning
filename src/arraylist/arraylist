@@ -1,0 +1,16 @@
+-> User often faces different problems in 1D and 2D array as they are not changeable.
+User cannot edit the created array as his own will as the size of an array is always fixed.
+In order to deal the issue , arraylist is created.
+-> ADVANTAGES:
+    1. Changeable & undefined array size.
+    2. add a new element arbitrarily(icchamoto).
+    3. arbitrarily print any element of the array.
+    4. convert the array to an object automatically.
+
+
+
+-> Basic syntax:
+    ArrayList<Integer> name = new Arraylist<>(); //wrapper class must be used. premitive datatype is not allowed.
+   ( List<AnyClass>list= new Arraylist<AnyClass>();)
+
+-> how to create: in the next class.

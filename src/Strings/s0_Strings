@@ -1,0 +1,6 @@
+->String is basically character array.
+
+আসলে string হলো java authority কর্তৃক তৈরি একটি class (datatype, like int). আর ডট অপারেটর দিয়ে
+যেগুলো use করি সেগুলো হলো ঐ class এর attribute. কিছু attribute তৈরি করা হইভহে ফাংশন use করে, আর কিছু
+normally তৈরি করা হইছে।
+যেমনঃ str.length(); আবার, arr.length;

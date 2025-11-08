@@ -1,0 +1,28 @@
+WRAPPER CLASSES: A class whose object contains or wraps PDT (premitive data type: int float double char etc).
+    Object of a wrapper class contains a field which stores PDT.
+
+ How to declare: A wrapper class is already created in java.lang
+ where various attributes has already created by java authority.
+ So to make an object of the wrapper class user had to follow the
+ rules of declaring an object of a created class.
+ Such as: Integer n=new Integer(value: 3);
+
+ but it is not valid at present.
+
+ So the latest process is :
+
+   Integer n=Integer.valueof(4);
+   Float f=Float.valueof(3.5);
+
+   In such a way:
+   int -> Integer
+   float->Float
+   double-> Double
+   boolean-> Boolean
+   char -> Character
+   long-> Long
+
+ Why to declare: Java is an object oriented programming language.
+ So , permitive data types actually violent java & sometimes create problem.
+ In order to solve the issue , wrapper classes is used .Thus permitive data types
+ is stored in a class and converted in object.
